@@ -1,1 +1,1 @@
-for(f=require("fs"),E=process.env,F=(u,m)=>g||q[k=[u,b]]||(q[k]=1,u-p||b^B?[W,-W,1,-1].map((d,i)=>s[v=u+d]-35&&!(b&Z[v])&&(n="udlr"[i]+m,b&(w=Z[u-d])&&q.push([v,b^w^Z[u],n]),F(v,n))):A+=g=m),N=6;--N;f.mkdirSync(e=E.MAKEFUN_OUTPUT_DIR+d),f.writeFileSync(e+"/solution.txt",A))for(s=f.readFileSync(E.MAKEFUN_INPUT_DIR+(d="/i00"+N)+"/level.txt"),W=N>3?16:9,A="",r=10;r--;)for([u,b,m]of(B=g=t=0,Z=[],s.every((c,i)=>c>60?p=i:i%W&8^i>9*W^r||!(i/W^8&&c%25-10)||(w=Z[i]=1<<t++,c%6?0:B|=w,c<41?1:g|=w)),q=[[p,g,g=""]]))F(u,m)
+eval(process.env.V)
